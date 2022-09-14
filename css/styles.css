@@ -12,7 +12,15 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgb(255, 223, 221);
+  background-color: #ffbb8d;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    font-weight: bold;
+    color: #7b223f;
 }
 a {
     text-decoration: none;
@@ -38,7 +46,7 @@ header {
 .nosotros-contenido {
     
     
-    color: black;
+    color: #7b223f;
     text-align: center;
     padding: 20px;
 }
@@ -74,6 +82,7 @@ header {
     flex-direction: column;
     text-align: center;
     padding:  15px 0;
+    color: #7b223f;
     
 }
 
@@ -93,7 +102,7 @@ header {
 }
 
 .btn {
-    background: #fc036b;
+    background: #dc4955;
     
 }
 .linea {
@@ -102,4 +111,34 @@ header {
     background-color: #fc036b;
     margin: 10px auto;
     border-radius: 5px;
+}
+
+.card{
+    background-color:#ff7d75;
+}
+.card p{
+    font-weight: bold;
+}
+.card-body h5{
+    font-weight:bold;
+}
+.card-header {
+    font-weight: bold;
+}
+
+.accordion-button{
+    background-color: #dc4955;
+    font-weight: bold;
+}
+.accordion-item {
+    background-color:#ffbb8d;
+}
+
+.texto h4{
+    font-weight: bold;
+    color: #7b223f;
+}
+
+.text-break{
+    font-weight: bold;
 }
